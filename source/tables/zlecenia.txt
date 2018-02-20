@@ -1,0 +1,1 @@
+﻿ID	nazwaZlecenia	numer	klientPosredni	ulica	nrDomu_Mieszkania	kodPocztowy	miasto	temrinRealizacji	opcjaMontazu	kosztyMaterialow	status	dataDodania

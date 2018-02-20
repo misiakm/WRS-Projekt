@@ -1,0 +1,1 @@
+﻿ID	pracownik	stawkaStandardowa	stawkaNadgodziny	stawkaWyjazdZagranicznyStandard	stawkaWyjazdZagranicznyNadgodziny	odKiedy	doKiedy	dataDodania

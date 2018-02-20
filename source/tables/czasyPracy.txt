@@ -1,0 +1,1 @@
+﻿ID	pracownik	data	zlecenie	czas	kwota	czyWyjazd	dzial	dataDodania

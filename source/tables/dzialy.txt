@@ -1,0 +1,3 @@
+﻿ID	nazwaDzialu	dataDodania
+1	Lakiernia	
+2	Polernia	

@@ -1,0 +1,1 @@
+﻿ID	nazwaKlienta	pelnaNazwa	NIP_PESEL	ulica	nrDomu_Mieszkania	kodPocztowy	miasto	dataDodania
