@@ -1,0 +1,854 @@
+﻿Version =20
+VersionRequired =20
+PublishOption =1
+    RecordSelectors = NotDefault
+    NavigationButtons = NotDefault
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    TabularCharSet =238
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =13805
+    DatasheetFontHeight =11
+    ItemSuffix =75
+    Right =20550
+    Bottom =12285
+    DatasheetGridlinesColor =14806254
+        0x97759d59a912e540
+    End
+    RecordSource ="pracownicy"
+    DatasheetFontName ="Calibri"
+        0x6801000068010000680100006801000000000000201c0000e010000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    OnLoad ="[Event Procedure]"
+    AllowDatasheetView =0
+    FilterOnLoad =0
+    ShowPageMargins =0
+    DisplayOnSharePointSite =1
+    DatasheetAlternateBackColor =15921906
+    DatasheetGridlinesColor12 =0
+    FitToScreen =1
+    DatasheetBackThemeColorIndex =1
+    BorderThemeColorIndex =3
+    ThemeFontIndex =1
+    ForeThemeColorIndex =0
+    AlternateBackThemeColorIndex =1
+    AlternateBackShade =95.0
+            BackStyle =0
+            TextFontCharSet =238
+            FontSize =11
+            FontName ="Calibri"
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =0
+            BorderTint =50.0
+            ForeThemeColorIndex =0
+            ForeTint =50.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+            BackStyle =0
+            OldBorderStyle =0
+            BorderLineStyle =0
+            SizeMode =3
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+            BorderColor =16777215
+            GridlineColor =16777215
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+            TextFontCharSet =238
+            Width =1701
+            Height =283
+            FontSize =11
+            FontWeight =400
+            FontName ="Calibri"
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            UseTheme =1
+            Shape =1
+            Gradient =12
+            BackThemeColorIndex =4
+            BackTint =60.0
+            BorderLineStyle =0
+            BorderColor =16777215
+            BorderThemeColorIndex =4
+            BorderTint =60.0
+            ThemeFontIndex =1
+            HoverThemeColorIndex =4
+            HoverTint =40.0
+            PressedThemeColorIndex =4
+            PressedShade =75.0
+            HoverForeThemeColorIndex =0
+            HoverForeTint =75.0
+            PressedForeThemeColorIndex =0
+            PressedForeTint =75.0
+        End
+            AddColon = NotDefault
+            FELineBreak = NotDefault
+            TextFontCharSet =238
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =11
+            FontName ="Calibri"
+            AsianLineBreak =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ThemeFontIndex =1
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+            BorderThemeColorIndex =1
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            BorderShade =65.0
+            ShowPageHeaderAndPageFooter =1
+        End
+            Height =240
+            GridlineColor =12632256
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+            Height =562
+            Name ="NagłówekFormularza"
+            AutoHeight =1
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+                    OverlapFlags =85
+                    TextAlign =1
+                    Left =300
+                    Top =60
+                    Width =3225
+                    Height =480
+                    FontSize =18
+                    BorderColor =8210719
+                    Name ="Auto_Nagłówek0"
+                    Caption ="PRACOWNIK"
+                    GroupTable =2
+                    GridlineColor =10921638
+                    HorizontalAnchor =2
+                    LayoutCachedLeft =300
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =3525
+                    LayoutCachedHeight =540
+                    LayoutGroup =2
+                    ThemeFontIndex =-1
+                    BorderThemeColorIndex =2
+                    BorderTint =100.0
+                    ForeTint =100.0
+                    GroupTable =2
+                End
+                    OverlapFlags =85
+                    Left =4020
+                    Top =60
+                    Width =1695
+                    Height =450
+                    FontSize =10
+                    ForeColor =16777215
+                    Name ="btnDodaj"
+                    Caption ="Zamknij i zapisz"
+                    OnClick ="[Event Procedure]"
+                    GroupTable =4
+                    LeftPadding =0
+                    TopPadding =0
+                    RightPadding =0
+                    BottomPadding =0
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =4020
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =5715
+                    LayoutCachedHeight =510
+                    LayoutGroup =3
+                    ForeThemeColorIndex =-1
+                    Gradient =0
+                    BackColor =5282738
+                    BackThemeColorIndex =-1
+                    OldBorderStyle =0
+                    BorderColor =14136213
+                    HoverColor =5282738
+                    HoverThemeColorIndex =-1
+                    PressedColor =5282738
+                    PressedThemeColorIndex =-1
+                    HoverForeThemeColorIndex =-1
+                    PressedForeColor =4210752
+                    GroupTable =4
+                End
+            End
+        End
+            CanGrow = NotDefault
+            Height =8509
+            Name ="Szczegóły"
+            AlternateBackColor =15921906
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1740
+                    Top =345
+                    Width =2115
+                    Height =341
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    BorderColor =5282738
+                    ForeColor =4210752
+                    Name ="imie"
+                    ControlSource ="imie"
+                    GroupTable =1
+                    BottomPadding =150
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =1740
+                    LayoutCachedTop =345
+                    LayoutCachedWidth =3855
+                    LayoutCachedHeight =686
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    BorderThemeColorIndex =-1
+                    BorderShade =100.0
+                    GroupTable =1
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =345
+                            Top =345
+                            Width =1333
+                            Height =341
+                            FontWeight =700
+                            LeftMargin =44
+                            TopMargin =22
+                            RightMargin =44
+                            BottomMargin =22
+                            BorderColor =8355711
+                            ForeColor =6702914
+                            Name ="Etykieta3"
+                            Caption ="Imię"
+                            GroupTable =1
+                            BottomPadding =150
+                            GridlineColor =10921638
+                            LayoutCachedLeft =345
+                            LayoutCachedTop =345
+                            LayoutCachedWidth =1678
+                            LayoutCachedHeight =686
+                            LayoutGroup =1
+                            ForeThemeColorIndex =-1
+                            ForeTint =100.0
+                            GroupTable =1
+                        End
+                    End
+                End
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =5235
+                    Top =345
+                    Width =2745
+                    Height =341
+                    TabIndex =1
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    BorderColor =5282738
+                    ForeColor =4210752
+                    Name ="nazwisko"
+                    ControlSource ="nazwisko"
+                    GroupTable =1
+                    BottomPadding =150
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =5235
+                    LayoutCachedTop =345
+                    LayoutCachedWidth =7980
+                    LayoutCachedHeight =686
+                    ColumnStart =3
+                    ColumnEnd =3
+                    LayoutGroup =1
+                    BorderThemeColorIndex =-1
+                    BorderShade =100.0
+                    GroupTable =1
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =3915
+                            Top =345
+                            Width =1260
+                            Height =341
+                            FontWeight =700
+                            LeftMargin =44
+                            TopMargin =22
+                            RightMargin =44
+                            BottomMargin =22
+                            BorderColor =8355711
+                            ForeColor =6702914
+                            Name ="Etykieta6"
+                            Caption ="Nazwisko"
+                            GroupTable =1
+                            BottomPadding =150
+                            GridlineColor =10921638
+                            LayoutCachedLeft =3915
+                            LayoutCachedTop =345
+                            LayoutCachedWidth =5175
+                            LayoutCachedHeight =686
+                            ColumnStart =2
+                            ColumnEnd =2
+                            LayoutGroup =1
+                            ForeThemeColorIndex =-1
+                            ForeTint =100.0
+                            GroupTable =1
+                        End
+                    End
+                End
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1740
+                    Top =870
+                    Width =6240
+                    Height =345
+                    TabIndex =2
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    BorderColor =5282738
+                    ForeColor =4210752
+                    Name ="PESEL"
+                    ControlSource ="PESEL"
+                    GroupTable =1
+                    BottomPadding =150
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =1740
+                    LayoutCachedTop =870
+                    LayoutCachedWidth =7980
+                    LayoutCachedHeight =1215
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =1
+                    ColumnEnd =3
+                    LayoutGroup =1
+                    BorderThemeColorIndex =-1
+                    BorderShade =100.0
+                    GroupTable =1
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =345
+                            Top =870
+                            Width =1333
+                            Height =345
+                            FontWeight =700
+                            LeftMargin =44
+                            TopMargin =22
+                            RightMargin =44
+                            BottomMargin =22
+                            BorderColor =8355711
+                            ForeColor =6702914
+                            Name ="Etykieta9"
+                            Caption ="PESEL"
+                            GroupTable =1
+                            BottomPadding =150
+                            GridlineColor =10921638
+                            LayoutCachedLeft =345
+                            LayoutCachedTop =870
+                            LayoutCachedWidth =1678
+                            LayoutCachedHeight =1215
+                            RowStart =1
+                            RowEnd =1
+                            LayoutGroup =1
+                            ForeThemeColorIndex =-1
+                            ForeTint =100.0
+                            GroupTable =1
+                        End
+                    End
+                End
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1740
+                    Top =1395
+                    Width =6240
+                    Height =345
+                    TabIndex =3
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    BorderColor =5282738
+                    ForeColor =4210752
+                    Name ="telefon"
+                    ControlSource ="telefon"
+                    GroupTable =1
+                    BottomPadding =150
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =1740
+                    LayoutCachedTop =1395
+                    LayoutCachedWidth =7980
+                    LayoutCachedHeight =1740
+                    RowStart =2
+                    RowEnd =2
+                    ColumnStart =1
+                    ColumnEnd =3
+                    LayoutGroup =1
+                    BorderThemeColorIndex =-1
+                    BorderShade =100.0
+                    GroupTable =1
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =345
+                            Top =1395
+                            Width =1333
+                            Height =345
+                            FontWeight =700
+                            LeftMargin =44
+                            TopMargin =22
+                            RightMargin =44
+                            BottomMargin =22
+                            BorderColor =8355711
+                            ForeColor =6702914
+                            Name ="Etykieta12"
+                            Caption ="Telefon"
+                            GroupTable =1
+                            BottomPadding =150
+                            GridlineColor =10921638
+                            LayoutCachedLeft =345
+                            LayoutCachedTop =1395
+                            LayoutCachedWidth =1678
+                            LayoutCachedHeight =1740
+                            RowStart =2
+                            RowEnd =2
+                            LayoutGroup =1
+                            ForeThemeColorIndex =-1
+                            ForeTint =100.0
+                            GroupTable =1
+                        End
+                    End
+                End
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1740
+                    Top =1920
+                    Width =6240
+                    Height =345
+                    TabIndex =4
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    BorderColor =5282738
+                    ForeColor =4210752
+                    Name ="email"
+                    ControlSource ="email"
+                    GroupTable =1
+                    BottomPadding =150
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =1740
+                    LayoutCachedTop =1920
+                    LayoutCachedWidth =7980
+                    LayoutCachedHeight =2265
+                    RowStart =3
+                    RowEnd =3
+                    ColumnStart =1
+                    ColumnEnd =3
+                    LayoutGroup =1
+                    BorderThemeColorIndex =-1
+                    BorderShade =100.0
+                    GroupTable =1
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =345
+                            Top =1920
+                            Width =1333
+                            Height =345
+                            FontWeight =700
+                            LeftMargin =44
+                            TopMargin =22
+                            RightMargin =44
+                            BottomMargin =22
+                            BorderColor =8355711
+                            ForeColor =6702914
+                            Name ="Etykieta15"
+                            Caption ="E-mail"
+                            GroupTable =1
+                            BottomPadding =150
+                            GridlineColor =10921638
+                            LayoutCachedLeft =345
+                            LayoutCachedTop =1920
+                            LayoutCachedWidth =1678
+                            LayoutCachedHeight =2265
+                            RowStart =3
+                            RowEnd =3
+                            LayoutGroup =1
+                            ForeThemeColorIndex =-1
+                            ForeTint =100.0
+                            GroupTable =1
+                        End
+                    End
+                End
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1740
+                    Top =2445
+                    Width =6240
+                    Height =345
+                    TabIndex =5
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    BorderColor =5282738
+                    ForeColor =4210752
+                    Name ="stanowisko"
+                    ControlSource ="stanowisko"
+                    GroupTable =1
+                    BottomPadding =150
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =1740
+                    LayoutCachedTop =2445
+                    LayoutCachedWidth =7980
+                    LayoutCachedHeight =2790
+                    RowStart =4
+                    RowEnd =4
+                    ColumnStart =1
+                    ColumnEnd =3
+                    LayoutGroup =1
+                    BorderThemeColorIndex =-1
+                    BorderShade =100.0
+                    GroupTable =1
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =345
+                            Top =2445
+                            Width =1333
+                            Height =345
+                            FontWeight =700
+                            LeftMargin =44
+                            TopMargin =22
+                            RightMargin =44
+                            BottomMargin =22
+                            BorderColor =8355711
+                            ForeColor =6702914
+                            Name ="Etykieta18"
+                            Caption ="Stanowisko"
+                            GroupTable =1
+                            BottomPadding =150
+                            GridlineColor =10921638
+                            LayoutCachedLeft =345
+                            LayoutCachedTop =2445
+                            LayoutCachedWidth =1678
+                            LayoutCachedHeight =2790
+                            RowStart =4
+                            RowEnd =4
+                            LayoutGroup =1
+                            ForeThemeColorIndex =-1
+                            ForeTint =100.0
+                            GroupTable =1
+                        End
+                    End
+                End
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1740
+                    Top =2970
+                    Width =6240
+                    Height =345
+                    TabIndex =6
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    BorderColor =5282738
+                    ForeColor =4210752
+                    Name ="login"
+                    ControlSource ="login"
+                    GroupTable =1
+                    BottomPadding =150
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =1740
+                    LayoutCachedTop =2970
+                    LayoutCachedWidth =7980
+                    LayoutCachedHeight =3315
+                    RowStart =5
+                    RowEnd =5
+                    ColumnStart =1
+                    ColumnEnd =3
+                    LayoutGroup =1
+                    BorderThemeColorIndex =-1
+                    BorderShade =100.0
+                    GroupTable =1
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =345
+                            Top =2970
+                            Width =1333
+                            Height =345
+                            FontWeight =700
+                            LeftMargin =44
+                            TopMargin =22
+                            RightMargin =44
+                            BottomMargin =22
+                            BorderColor =8355711
+                            ForeColor =6702914
+                            Name ="Etykieta24"
+                            Caption ="Login"
+                            GroupTable =1
+                            BottomPadding =150
+                            GridlineColor =10921638
+                            LayoutCachedLeft =345
+                            LayoutCachedTop =2970
+                            LayoutCachedWidth =1678
+                            LayoutCachedHeight =3315
+                            RowStart =5
+                            RowEnd =5
+                            LayoutGroup =1
+                            ForeThemeColorIndex =-1
+                            ForeTint =100.0
+                            GroupTable =1
+                        End
+                    End
+                End
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1740
+                    Top =4020
+                    Width =6240
+                    Height =345
+                    TabIndex =8
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    BorderColor =5282738
+                    ForeColor =4210752
+                    Name ="uwagi"
+                    ControlSource ="uwagi"
+                    GroupTable =1
+                    BottomPadding =150
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =1740
+                    LayoutCachedTop =4020
+                    LayoutCachedWidth =7980
+                    LayoutCachedHeight =4365
+                    RowStart =7
+                    RowEnd =7
+                    ColumnStart =1
+                    ColumnEnd =3
+                    LayoutGroup =1
+                    BorderThemeColorIndex =-1
+                    BorderShade =100.0
+                    GroupTable =1
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =345
+                            Top =4020
+                            Width =1333
+                            Height =345
+                            FontWeight =700
+                            LeftMargin =44
+                            TopMargin =22
+                            RightMargin =44
+                            BottomMargin =22
+                            BorderColor =8355711
+                            ForeColor =6702914
+                            Name ="Etykieta30"
+                            Caption ="Uwagi"
+                            GroupTable =1
+                            BottomPadding =150
+                            GridlineColor =10921638
+                            LayoutCachedLeft =345
+                            LayoutCachedTop =4020
+                            LayoutCachedWidth =1678
+                            LayoutCachedHeight =4365
+                            RowStart =7
+                            RowEnd =7
+                            LayoutGroup =1
+                            ForeThemeColorIndex =-1
+                            ForeTint =100.0
+                            GroupTable =1
+                        End
+                    End
+                End
+                    OverlapFlags =85
+                    TextAlign =1
+                    Left =345
+                    Top =3495
+                    Width =1333
+                    Height =345
+                    FontWeight =700
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    BorderColor =8355711
+                    ForeColor =6702914
+                    Name ="Etykieta27"
+                    Caption ="Haslo"
+                    GroupTable =1
+                    BottomPadding =150
+                    GridlineColor =10921638
+                    LayoutCachedLeft =345
+                    LayoutCachedTop =3495
+                    LayoutCachedWidth =1678
+                    LayoutCachedHeight =3840
+                    RowStart =6
+                    RowEnd =6
+                    LayoutGroup =1
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
+                    GroupTable =1
+                End
+                    OverlapFlags =85
+                    Left =1740
+                    Top =3495
+                    Width =2115
+                    Height =345
+                    FontSize =10
+                    TabIndex =7
+                    ForeColor =16777215
+                    Name ="btnZmienHaslo"
+                    Caption ="Generuj hasło"
+                    OnClick ="[Event Procedure]"
+                    GroupTable =1
+                    BottomPadding =150
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =1740
+                    LayoutCachedTop =3495
+                    LayoutCachedWidth =3855
+                    LayoutCachedHeight =3840
+                    RowStart =6
+                    RowEnd =6
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    ForeThemeColorIndex =-1
+                    Gradient =0
+                    BackColor =6702914
+                    BackThemeColorIndex =-1
+                    BackTint =100.0
+                    OldBorderStyle =0
+                    BorderColor =14136213
+                    HoverColor =6702914
+                    HoverThemeColorIndex =-1
+                    HoverTint =100.0
+                    PressedColor =6702914
+                    PressedThemeColorIndex =-1
+                    PressedShade =100.0
+                    HoverForeThemeColorIndex =-1
+                    PressedForeColor =4210752
+                    GroupTable =1
+                    WebImagePaddingLeft =2
+                    WebImagePaddingTop =2
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =10
+                End
+                    Left =3915
+                    Top =3495
+                    Width =4065
+                    Height =345
+                    Name ="PustaKomórka49"
+                    GroupTable =1
+                    BottomPadding =150
+                    GridlineColor =10921638
+                    LayoutCachedLeft =3915
+                    LayoutCachedTop =3495
+                    LayoutCachedWidth =7980
+                    LayoutCachedHeight =3840
+                    RowStart =6
+                    RowEnd =6
+                    ColumnStart =2
+                    ColumnEnd =3
+                    LayoutGroup =1
+                    GroupTable =1
+                End
+                    OverlapFlags =85
+                    OldBorderStyle =0
+                    Left =56
+                    Top =4534
+                    Width =13635
+                    Height =3975
+                    TabIndex =9
+                    BorderColor =10921638
+                    Name ="stawkiPracownikow"
+                    SourceObject ="Form.stawkiPracownikow"
+                    LinkChildFields ="pracownik"
+                    LinkMasterFields ="ID"
+                    OnEnter ="[Event Procedure]"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =56
+                    LayoutCachedTop =4534
+                    LayoutCachedWidth =13691
+                    LayoutCachedHeight =8509
+                End
+            End
+        End
+            Height =0
+            Name ="StopkaFormularza"
+            AutoHeight =1
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+        End
+    End
+End
+CodeBehindForm
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Compare Database
+Option Explicit
+
+Private Sub btnDodaj_Click()
+   Call zamknijFormularz(Me.Name)
+End Sub
+
+Private Sub btnZmienHaslo_Click()
+   Call saveRecord
+   Call zmienHasloGenerowanie(Me.login)
+End Sub
+
+Private Sub Form_Load()
+   With Me.stawkiPracownikow.Form
+      .tytul.Visible = False
+      .btnZamknij.Visible = False
+   End With
+End Sub
+
+Private Sub stawkiPracownikow_Enter()
+   Call saveRecord
+   If IsNull(Me.nazwisko) Then
+      MsgBox "Wpisz najpierw nazwisko pracownika"
+      Me.nazwisko.SetFocus
+   End If
+End Sub

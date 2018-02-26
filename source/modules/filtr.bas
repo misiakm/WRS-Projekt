@@ -4,10 +4,10 @@ Option Explicit
 Public Const kryteriaSQL = "[kryteriaSQLxx2345]"
 'Public kryteriaFormularzy As New Dictionary
 
-Sub czyscKryteriaFormularzy(f As Form)
-On Error Resume Next
-    kryteriaFormularzy.Remove (f.Name)
-End Sub
+'Sub czyscKryteriaFormularzy(f As Form)
+'On Error Resume Next
+'    kryteriaFormularzy.Remove (f.Name)
+'End Sub
 
 Sub zbierzWszystkie(f As Form, ByRef kolekcja As Collection, Optional sectionName As String = "headerForm")
     Dim listener As cFilterControl
@@ -21,35 +21,35 @@ Sub zbierzWszystkie(f As Form, ByRef kolekcja As Collection, Optional sectionNam
 End Sub
 
 
-Sub dodajKryteria(f As Form)
-   Dim k As String
-   k = pobierzFiltryDoZapisania(f)
-   If kryteriaFormularzy.Exists(f.Name) Then
-        kryteriaFormularzy(f.Name) = k
-   Else
-        Call kryteriaFormularzy.Add(f.Name, k)
-   End If
+'Sub dodajKryteria(f As Form)
+'   Dim k As String
+'   k = pobierzFiltryDoZapisania(f)
 '   If kryteriaFormularzy.Exists(f.Name) Then
-'       kryteriaFormularzy.Item(f.Name) = k
-'    Else
-'   kryteriaFormularzy.items(f.Name) = k
-'   Call kryteriaFormularzy.Add(f.Name, k)
-'   Exit Sub
-'blad:
-   
-End Sub
+'        kryteriaFormularzy(f.Name) = k
+'   Else
+'        Call kryteriaFormularzy.Add(f.Name, k)
+'   End If
+''   If kryteriaFormularzy.Exists(f.Name) Then
+''       kryteriaFormularzy.Item(f.Name) = k
+''    Else
+''   kryteriaFormularzy.items(f.Name) = k
+''   Call kryteriaFormularzy.Add(f.Name, k)
+''   Exit Sub
+''blad:
+'
+'End Sub
 
-Sub odwtorzyKryteria(f As Form)
-'On Error GoTo blad
-    Dim ks As String, k, x As Long
-    Dim pole As String, wartosc As String
-    ks = kryteriaFormularzy(f.Name)
-    For Each k In Split(ks, ";") 'For x = 1 To ileCzesci(k)
-        pole = pobierzCzesc(k, 1, "=")
-        wartosc = pobierzCzesc(k, 2, "=")
-        f.Controls(pole).value = wartosc
-    Next k
-End Sub
+'Sub odwtorzyKryteria(f As Form)
+''On Error GoTo blad
+'    Dim ks As String, k, x As Long
+'    Dim pole As String, wartosc As String
+'    ks = kryteriaFormularzy(f.Name)
+'    For Each k In Split(ks, ";") 'For x = 1 To ileCzesci(k)
+'        pole = pobierzCzesc(k, 1, "=")
+'        wartosc = pobierzCzesc(k, 2, "=")
+'        f.Controls(pole).value = wartosc
+'    Next k
+'End Sub
 
 
 Function pobierzCzesc(ByVal tekst As String, ByVal nr As String, Optional ByVal separator As String = ";") As String

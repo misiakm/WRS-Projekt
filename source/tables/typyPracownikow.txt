@@ -1,4 +1,4 @@
-﻿ID	typ	dataDodania
-1	Admin	
-2	Moderator	
-3	Użytkownik	
+﻿ID	typ	uwagi	dataDodania
+1	Admin		
+2	Moderator		
+3	Użytkownik		

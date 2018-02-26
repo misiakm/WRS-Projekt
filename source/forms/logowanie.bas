@@ -13,12 +13,15 @@ PublishOption =1
     Width =6994
     DatasheetFontHeight =11
     ItemSuffix =36
-    Right =20550
+    Right =25320
     Bottom =12285
     DatasheetGridlinesColor =14806254
         0x67120996fb11e540
     End
     DatasheetFontName ="Calibri"
+        0x6801000068010000680100006801000000000000201c0000e010000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
     AllowDatasheetView =0
     FilterOnLoad =0
     ShowPageMargins =0
@@ -92,6 +95,19 @@ PublishOption =1
             GridlineThemeColorIndex =1
             GridlineShade =65.0
         End
+            SpecialEffect =2
+            OldBorderStyle =1
+            Width =4536
+            Height =2835
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ForeThemeColorIndex =2
+            ForeShade =50.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
             Height =240
             GridlineColor =12632256
             GridlineThemeColorIndex =1
@@ -137,6 +153,7 @@ PublishOption =1
                             Width =1080
                             Height =397
                             FontSize =14
+                            FontWeight =700
                             BorderColor =8355711
                             ForeColor =6702914
                             Name ="Etykieta2"
@@ -192,6 +209,7 @@ PublishOption =1
                             Width =1080
                             Height =390
                             FontSize =14
+                            FontWeight =700
                             BorderColor =8355711
                             ForeColor =6702914
                             Name ="Etykieta8"
@@ -219,8 +237,9 @@ PublishOption =1
                     Height =480
                     TabIndex =2
                     ForeColor =16777215
-                    Name ="Polecenie15"
+                    Name ="btnZaloguj"
                     Caption ="Zaloguj"
+                    OnClick ="[Event Procedure]"
                     GroupTable =2
                     BottomPadding =150
                     GridlineColor =10921638
@@ -307,3 +326,24 @@ PublishOption =1
         End
     End
 End
+CodeBehindForm
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Compare Database
+Option Explicit
+
+'Przycisk zaloguj
+Private Sub btnZaloguj_Click()
+   Dim haslo As String
+   haslo = basMD5.MD5_string(Me.tbHaslo)
+   If DCount("*", "pracownicy", mkStr("login = '$1' and haslo = '$2'", Me.tbLogin, haslo)) = 1 Then
+      Call setUser(Me.tbLogin)
+      DoCmd.openForm "Panel"
+      DoCmd.Close acForm, Me.Name
+   Else
+      MsgBox "Błędne dane logowania"
+      Me.tbHaslo = Null
+   End If
+End Sub

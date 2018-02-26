@@ -1,3 +1,3 @@
-﻿ID	nazwaDzialu	dataDodania
-1	Lakiernia	
-2	Polernia	
+﻿ID	nazwaDzialu	uwagi	dataDodania
+1	Lakiernia		
+2	Polernia		

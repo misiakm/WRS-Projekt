@@ -1,6 +1,6 @@
 Option Compare Database
 Option Explicit
-Const czyDebug = True
+Const czyDebug = False
 Sub drukujObiekt()
 On Error GoTo blad
     Call DoCmd.RunCommand(acCmdPrint)
@@ -33,6 +33,8 @@ End Function
 
 Sub deleteRecord()
     DoCmd.SetWarnings (False)
+    On Error Resume Next
+    Call saveRecord
     Call DoCmd.RunCommand(acCmdDeleteRecord)
     DoCmd.SetWarnings (True)
 End Sub
@@ -55,6 +57,15 @@ blad:
     End Select
 End Sub
 
+Sub saveRecord()
+   On Error Resume Next
+   DoCmd.RunCommand acCmdSaveRecord
+End Sub
+
+Sub zamknijFormularz(formularz As String)
+   DoCmd.Close acForm, formularz
+   DoCmd.Requery
+End Sub
 
 Sub openForm(formularz As String, Optional widok As AcView = acNormal, Optional tabele As String = "", Optional kryteria As String = "", Optional komunikat As String = "bark wyników")
 On Error GoTo blad
@@ -63,7 +74,7 @@ On Error GoTo blad
     
     If DCount("*", tabele, kryteria) > 0 Then
         Call DoCmd.openForm(formularz, widok, , kryteria)
-        Call setDodatkowyFiltr(Forms(formularz), kryteria)
+'        Call setDodatkowyFiltr(Forms(formularz), kryteria)
     Else
         Call MsgBox(komunikat)
     End If
